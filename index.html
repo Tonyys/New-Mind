@@ -91,13 +91,13 @@
     <section class="hero pt-[101px] lg:pt-[115px]">
         <div class="container">
             <div>
-                <div class="hero__title gsap-y-100 overflow-hidden">
+                <div class="hero__title overflow-hidden">
                     <h1 class="font-manrope text-center text-[78px] leading-[107px] text-main-black lg:text-[192px] lg:leading-[79%]">New Mind</h1>
                 </div>
                 <div class="hero__description mt-[3px]">
                     <p class="text-22px max-w-[688px] mx-auto leading-145 text-center lg:mt-30px">Онлайн школа для тих, хто прагне оволодіти новим рівнем мислення, відчуває внутрішні перешкоди, шукає відповіді та прагне розвитку</p>
                 </div>
-                <div class="hero__image h-[475px] mt-30px rounded-[10px] overflow-hidden lg:mt-[43px]">
+                <div class="hero__image gsap-image h-[475px] mt-30px rounded-[10px] overflow-hidden lg:mt-[43px]">
                     <picture>
                         <source srcset="images/hero/desk.jpg" media="(min-width: 640px)">
                         <img class="w-full h-full object-cover" src="images/hero/mob.jpg" alt="">
@@ -358,7 +358,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="advantages__image mt-[28px] rounded-[10px] overflow-hidden lg:mt-60px">
+                <div class="advantages__image gsap-image mt-[28px] rounded-[10px] overflow-hidden lg:mt-60px">
                     <picture>
                         <source srcset="images/advantages.jpg" media="(min-width: 640px)">
                         <img class="w-full h-full object-cover" src="images/advantages-mob.jpg" alt="">
@@ -1106,12 +1106,12 @@
         <div class="flex flex-col lg:gap-40px lg:flex-row lg:justify-between">
             <div class="lg:max-w-[573px] lg:w-full">
                 <h3 class="h3-heading text-main-white text-center lg:text-start">Бажаєте розвинути свій потенціал і отримати цінні знання? Оберіть New Mind і станьте кращою версією себе!</h3>
-                <div class="flex flex-col items-center gap-20px mt-30px lg:flex-row lg:mt-40px">
+                <div class="hidden flex-col items-center gap-20px mt-30px lg:flex lg:flex-row lg:mt-40px">
                     <a class="footer__transparent-btns" href="#" target="_blank">Написати email</a>
                     <a class="footer__transparent-btns" href="#" target="_blank">Написати в Telegram</a>
                 </div>
             </div>
-            <div class="mt-60px relative lg:max-w-[531px] lg:w-full lg:mt-0">
+            <div class="mt-30px relative lg:max-w-[531px] lg:w-full lg:mt-0">
                 <div class="footer__form">
                     <form method="post">
                     <p>
@@ -1154,6 +1154,15 @@
                     </div>
                     <h3 class="h3-heading text-main-white">Дякуємо за заявку!</h3>
                     <p class="text-20px text-center leading-180 font-normal mt-30px text-main-white">Наш менеджер зв'яжеться з вами найближчим часом і допоможе підібрати курс</p>
+                </div>
+            </div>
+            <div class="flex flex-col mt-60px lg:hidden">
+                <div>
+                    <h3 class="h3-heading text-main-white text-center lg:text-start">Або зв’язатись з нами в</h3>
+                </div>
+                <div class="flex flex-col items-center gap-20px mt-20px">
+                    <a class="footer__transparent-btns" href="#" target="_blank">Написати email</a>
+                    <a class="footer__transparent-btns" href="#" target="_blank">Написати в Telegram</a>
                 </div>
             </div>
         </div>
