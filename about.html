@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>Home Page</title>
+</head>
+<body>
+
+<header class="header bg-main-white">
+    <div class="container">
+        <div class="relative flex items-center pt-[23px] pb-[17px] lg:pt-[29px] justify-between">
+            <div class="header__line pined">
+                <div></div>
+                <div></div>
+            </div>
+            <a class="header__logo max-w-[148px] w-full" href="#">
+                <img class="w-full h-full" src="images/Logo.svg" alt="Logo">
+            </a>
+            <div class="header__menu">
+                <ul>
+                    <li>
+                        <a href="http://status-travel.loc/" aria-current="page">Курси</a>
+                    </li>
+                    <li>
+                        <a href="http://status-travel.loc/">Консультація</a>
+                    </li>
+                    <li>
+                        <a href="http://status-travel.loc/">Статті</a>
+                    </li>
+                    <li>
+                        <a href="http://status-travel.loc/">Про школу</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="burger cursor-pointer">
+                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="2" cy="2" r="2" fill="#333037"/>
+                    <circle cx="2" cy="10" r="2" fill="#333037"/>
+                    <circle cx="2" cy="18" r="2" fill="#333037"/>
+                    <circle cx="11" cy="2" r="2" fill="#333037"/>
+                    <circle cx="11" cy="10" r="2" fill="#333037"/>
+                    <circle cx="11" cy="18" r="2" fill="#333037"/>
+                    <circle cx="20" cy="2" r="2" fill="#333037"/>
+                    <circle cx="20" cy="10" r="2" fill="#333037"/>
+                    <circle cx="20" cy="18" r="2" fill="#333037"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="mobile__menu fixed z-[101] top-0 left-0 right-0 w-full h-full bg-main-black">
+    <div class="container">
+        <div class="mobile__menu-top flex justify-between py-[17px] mt-[6px]">
+            <a class="max-w-[148px] w-full" href="#">
+                <img class="w-full h-full" src="images/Logo-white.svg" alt="Logo">
+            </a>
+            <div class="mobile__menu-cross cursor-pointer flex items-center">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.5566 18.5562L3.00029 2.9998" stroke="#FDFDF9" stroke-width="3"/>
+                    <path d="M3.00195 18.5562L18.5583 2.9998" stroke="#FDFDF9" stroke-width="3"/>
+                </svg>
+            </div>
+        </div>
+        <div class="mobile__menu-ul">
+            <ul>
+                <li>
+                    <a href="http://status-travel.loc/" aria-current="page">Курси</a>
+                </li>
+                <li>
+                    <a href="http://status-travel.loc/">Консультація</a>
+                </li>
+                <li>
+                    <a href="http://status-travel.loc/">Статті</a>
+                </li>
+                <li>
+                    <a href="http://status-travel.loc/">Про школу</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<main class="main flex flex-col gap-60px lg:gap-160px">
+
+    <section class="hero-about">
+        <div class="container">
+            <div class="pt-[106px] lg:pt-[142px]">
+                <div class="max-w-[1100px] w-full mx-auto">
+                    <h1 class="hero__title text-center font-manrope font-semibold text-34px leading-135 lg:text-65px lg:leading-111">Навчаємо людей бути свідомими та психологічно зрілими</h1>
+                </div>
+                <div class="hero__description text-center mt-30px text-22px leading-145 max-w-[718px] w-full mx-auto">
+                    <p>Наша місія полягає в тому, щоб формувати свідомих і психологічно зрілих людей через надання якісної, практичної освіти та розвитку мислення, що дозволяє нашим учням бути авторами власного життя.</p>
+                </div>
+                <div class="hero__image gsap-image h-[475px] mt-30px rounded-[10px] overflow-hidden">
+                    <picture>
+                        <source srcset="images/hero/about.jpg" media="(min-width: 640px)">
+                        <img class="w-full h-full object-cover" src="images/hero/about-mob.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="philosophy">
+        <div class="container">
+            <div>
+                <div class="overflow-hidden gsap-y-100">
+                    <h2 class="h2-heading text-center">Філософія школи</h2>
+                </div>
+                <div class="flex flex-col gap-30px mt-30px lg:mt-60px lg:gap-60px">
+                    <div class="philosophy__item flex flex-col gap-20px md:flex-row md:justify-between lg:gap-40px">
+                        <div class="philosophy__item-desc text-20px leading-180 md:max-w-[532px] md:w-full md:flex md:items-center">
+                            <p>Школа NewMind - це школа нового мислення, яка надає можливість людям мислити по-новому та розвивати свій потенціал. Наша школа прагне подолати стереотипи та шаблони мислення, що заважають розвитку особистості та досягненню успіху.</p>
+                        </div>
+                        <div class="gsap-image rounded-[10px] overflow-hidden md:max-w-[532px] md:w-full">
+                            <picture>
+                                <source srcset="images/philosophy/item-1.jpg">
+                                <img class="w-full h-full object-cover" src="images/philosophy/item-1.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="philosophy__item flex flex-col gap-20px md:justify-between md:flex-row-reverse lg:gap-40px">
+                        <div class="philosophy__item-desc text-20px leading-180 md:max-w-[532px] md:w-full md:flex md:items-center">
+                            <p>На чолі засновниці Вікторії, команда школи NewMind ретельно працює над створенням практичних курсів з використанням сучасних методів та технологій, які базуються на передових наукових досягненнях. Ми використовуємо інноваційні підходи до навчання, такі як гейміфікація, проектне навчання та інші, щоб забезпечити максимально ефективне та зрозуміле засвоєння матеріалу нашими учнями.</p>
+                        </div>
+                        <div class="gsap-image rounded-[10px] overflow-hidden md:max-w-[532px] md:w-full">
+                            <picture>
+                                <source srcset="images/philosophy/item-2.jpg">
+                                <img class="w-full h-full object-cover" src="images/philosophy/item-2.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="philosophy__item flex flex-col gap-20px md:flex-row md:justify-between lg:gap-40px">
+                        <div class="philosophy__item-desc text-20px leading-180 md:max-w-[532px] md:w-full md:flex md:items-center">
+                            <p>Один з головних принципів школи - це практична спрямованість навчання. Курси розроблені таким чином, щоб учні могли одразу використовувати набуті знання та навички у реальному житті. Крім того, наша школа надає увагу не лише професійному розвитку, але й особистісному зростанню кожного учня.</p>
+                        </div>
+                        <div class="gsap-image rounded-[10px] overflow-hidden md:max-w-[532px] md:w-full">
+                            <picture>
+                                <source srcset="images/philosophy/item-3.jpg">
+                                <img class="w-full h-full object-cover" src="images/philosophy/item-3.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="philosophy__item flex flex-col gap-20px md:justify-between md:flex-row-reverse lg:gap-40px">
+                        <div class="philosophy__item-desc text-20px leading-180 md:max-w-[532px] md:w-full md:flex md:items-center">
+                            <p>NewMind - це не просто навчальний заклад, але й спільнота людей, які діляться спільними цінностями та метою - стати кращою версією себе. Кожен учень може бути впевнений, що отримає якісну освіту та підтримку у своєму професійному та особистому зростанні від команди NewMind.</p>
+                        </div>
+                        <div class="gsap-image rounded-[10px] overflow-hidden md:max-w-[532px] md:w-full">
+                            <picture>
+                                <source srcset="images/philosophy/item-4.jpg">
+                                <img class="w-full h-full object-cover" src="images/philosophy/item-4.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div>
+                <div class="lg:flex gsap-y-100 overflow-hidden lg:justify-between lg:items-center">
+                    <h2 class="reviews__title h2-heading text-center lg:text-start">Відгуки студентів</h2>
+                    <div class="hidden lg:gap-30px lg:justify-center lg:flex">
+                        <div class="reviews__swiper-desk-prev">
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.5 6L10.5 0.226497V11.7735L0.5 6ZM19.5 7H9.5V5H19.5V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                        <div class="reviews__swiper-desk-next">
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.5 6L9.5 0.226497V11.7735L19.5 6ZM0.5 7H10.5V5H0.5V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-30px lg:mt-60px">
+                    <div class="reviews__swiper gsap-y-30 swiper">
+                        <div class="swiper-wrapper">
+                            <div class="reviews__slide swiper-slide">
+                                <div class="flex items-center gap-20px">
+                                    <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                        <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                                    </div>
+                                    <span class="main-section-description">Анонім</span>
+                                </div>
+                                <div class="mt-20px lg:mt-30px">
+                                    <div>
+                                        <h4 class="h4-heading">Курс Пастки свідомості</h4>
+                                    </div>
+                                    <div class="reviews__text mt-10px text-14px leading-157 lg:text-18px lg:leading-144">
+                                        <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                                    </div>
+                                    <div class="reviews__read-more">
+                                        <span>Читати детальніше</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="flex items-center gap-20px">
+                                    <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                        <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                                    </div>
+                                    <span class="main-section-description">Анонім</span>
+                                </div>
+                                <div class="mt-20px lg:mt-30px">
+                                    <div>
+                                        <h4 class="h4-heading">Курс Еволюція свідомості</h4>
+                                    </div>
+                                    <div class="reviews__text mt-10px text-14px leading-157 lg:text-18px lg:leading-144">
+                                        <p>Добрий день, хочу поділитися своїми відчуттями після чистки. По перше, це було щось! Я в шоці! Я бачила ніби комп'ютерну графіку, я бачила манекен і навколо різного кольору кільця. Як я дізналася пізніше, це я бачила свою енергоструктуру. Між сеансами нічого особливого не відбувалося, але я точно знала що мені це треба. Я швидче була зайнята обдумуванням того, що мені говорили після кожного сеансу. Ця</p>
+                                    </div>
+                                    <div class="reviews__read-more">
+                                        <span>Читати детальніше</span>
+                                    </div>
+                                    <div class="reviews__original flex justify-center mt-[14px]">
+                                        <a class="btn-purple btn-purple-h-black" href="#">Дивитися оригінал</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="flex items-center gap-20px">
+                                    <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                        <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                                    </div>
+                                    <span class="tmain-section-description">Анонім</span>
+                                </div>
+                                <div class="mt-20px lg:mt-30px">
+                                    <div>
+                                        <h4 class="h4-heading">Курс Пастки свідомості та мистецтво мислення</h4>
+                                    </div>
+                                    <div class="reviews__text mt-10px text-14px leading-157 lg:text-18px lg:leading-144">
+                                        <p>Після чистки мене ніби ковбасило, то спати весь час хотілося, то сил не було, то раптом навколо мене все почало змінюватися. І виходить, що поки мене рубало, усе навколо поскладалося як треба. І це магія. Дякую що були зі мною на зв'язку і пояснювали що відбувається. Я така щаслива. Мене відключало щось, щоб я не заважала змінам у своєму житті, це так смішно зараз, і зараз я вдячна сильно, але в той момент трохи не розуміла ))) Чистка дуже</p>
+                                    </div>
+                                    <div class="reviews__read-more">
+                                        <span>Читати детальніше</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="flex items-center gap-20px">
+                                    <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                        <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                                    </div>
+                                    <span class="main-section-description">Анонім</span>
+                                </div>
+                                <div class="mt-20px lg:mt-30px">
+                                    <div>
+                                        <h4 class="h4-heading">Курс Пастки свідомості</h4>
+                                    </div>
+                                    <div class="reviews__text mt-10px text-14px leading-157 lg:text-18px lg:leading-144">
+                                        <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                                    </div>
+                                    <div class="reviews__read-more">
+                                        <span>Читати детальніше</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="flex items-center gap-20px">
+                                    <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                        <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                                    </div>
+                                    <span class="main-section-description">Анонім</span>
+                                </div>
+                                <div class="mt-20px lg:mt-30px">
+                                    <div>
+                                        <h4 class="h4-heading">Курс Еволюція свідомості</h4>
+                                    </div>
+                                    <div class="reviews__text mt-10px text-14px leading-157 lg:text-18px lg:leading-144">
+                                        <p>Добрий день, хочу поділитися своїми відчуттями після чистки. По перше, це було щось! Я в шоці! Я бачила ніби комп'ютерну графіку, я бачила манекен і навколо різного кольору кільця. Як я дізналася пізніше, це я бачила свою енергоструктуру. Між сеансами нічого особливого не відбувалося, але я точно знала що мені це треба. Я швидче була зайнята обдумуванням того, що мені говорили після кожного сеансу. Ця</p>
+                                    </div>
+                                    <div class="reviews__read-more">
+                                        <span>Читати детальніше</span>
+                                    </div>
+                                    <div class="reviews__original flex justify-center mt-[14px]">
+                                        <a class="btn-purple btn-purple-h-black" href="#">Дивитися оригінал</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="flex items-center gap-20px">
+                                    <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                        <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                                    </div>
+                                    <span class="main-section-description">Анонім</span>
+                                </div>
+                                <div class="mt-20px lg:mt-30px">
+                                    <div>
+                                        <h4 class="h4-heading">Курс Пастки свідомості та мистецтво мислення</h4>
+                                    </div>
+                                    <div class="reviews__text mt-10px text-14px leading-157 lg:text-18px lg:leading-144">
+                                        <p>Після чистки мене ніби ковбасило, то спати весь час хотілося, то сил не було, то раптом навколо мене все почало змінюватися. І виходить, що поки мене рубало, усе навколо поскладалося як треба. І це магія. Дякую що були зі мною на зв'язку і пояснювали що відбувається. Я така щаслива. Мене відключало щось, щоб я не заважала змінам у своєму житті, це так смішно зараз, і зараз я вдячна сильно, але в той момент трохи не розуміла ))) Чистка дуже</p>
+                                    </div>
+                                    <div class="reviews__read-more">
+                                        <span>Читати детальніше</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-30px mt-20px justify-center lg:hidden">
+                        <div class="reviews__swiper-prev">
+                            <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6L10 0.226497V11.7735L0 6ZM19 7H9V5H19V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                        <div class="reviews__swiper-next">
+                            <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 6L9 0.226497V11.7735L19 6ZM0 7H10V5H0V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__pop-more">
+            <div class="reviews__pop-more-wrapper">
+                <div class="reviews__pop-more-item">
+                    <div class="reviews__pop-more-close">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center gap-20px">
+                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                            <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                        </div>
+                        <span class="main-section-description">Анонім</span>
+                    </div>
+                    <div class="mt-30px">
+                        <div>
+                            <h4 class="h4-heading">Курс Пастки свідомості1</h4>
+                        </div>
+                        <div class="mt-10px text-14px leading-157 lg:text-18px lg:leading-180">
+                            <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__pop-more-wrapper">
+                <div class="reviews__pop-more-item">
+                    <div class="reviews__pop-more-close">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center gap-20px">
+                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                            <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                        </div>
+                        <span class="main-section-description">Анонім</span>
+                    </div>
+                    <div class="mt-30px">
+                        <div>
+                            <h4 class="h4-heading">Курс Пастки свідомості2</h4>
+                        </div>
+                        <div class="mt-10px text-14px leading-157 lg:text-18px lg:leading-180">
+                            <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__pop-more-wrapper">
+                <div class="reviews__pop-more-item">
+                    <div class="reviews__pop-more-close">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center gap-20px">
+                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                            <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                        </div>
+                        <span class="main-section-description">Анонім</span>
+                    </div>
+                    <div class="mt-30px">
+                        <div>
+                            <h4 class="h4-heading">Курс Пастки свідомості3</h4>
+                        </div>
+                        <div class="mt-10px text-14px leading-157 lg:text-18px lg:leading-180">
+                            <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__pop-more-wrapper">
+                <div class="reviews__pop-more-item">
+                    <div class="reviews__pop-more-close">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center gap-20px">
+                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                            <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                        </div>
+                        <span class="main-section-description">Анонім</span>
+                    </div>
+                    <div class="mt-30px">
+                        <div>
+                            <h4 class="h4-heading">Курс Пастки свідомості4</h4>
+                        </div>
+                        <div class="mt-10px text-14px leading-157 lg:text-18px lg:leading-180">
+                            <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__pop-more-wrapper">
+                <div class="reviews__pop-more-item">
+                    <div class="reviews__pop-more-close">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center gap-20px">
+                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                            <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                        </div>
+                        <span class="main-section-description">Анонім</span>
+                    </div>
+                    <div class="mt-30px">
+                        <div>
+                            <h4 class="h4-heading">Курс Пастки свідомості5</h4>
+                        </div>
+                        <div class="mt-10px text-14px leading-157 lg:text-18px lg:leading-180">
+                            <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__pop-more-wrapper">
+                <div class="reviews__pop-more-item">
+                    <div class="reviews__pop-more-close">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center gap-20px">
+                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                            <img class="w-full h-full" src="images/reviews/Icon-avatar.png" alt="">
+                        </div>
+                        <span class="main-section-description">Анонім</span>
+                    </div>
+                    <div class="mt-30px">
+                        <div>
+                            <h4 class="h4-heading">Курс Пастки свідомості6</h4>
+                        </div>
+                        <div class="mt-10px text-14px leading-157 lg:text-18px lg:leading-180">
+                            <p>Енергопрактика стала як частина мого життя за цей проміжок часу, ніби свого роду як чистити думки і забирати всякого роду непотрібні, некорисні для себе речі. Відчуття змін не стало чекати. Почались в спілкуванні: з ким, для чого і чому я спілкуюсь із цими людьми. Також відчуття поваги себе ї свого власного часу і ресурсу, який мені даний. З'явилось більше ідей по роботі і енергії на реалізацію цих ідей, а також з'явилось відчуття де просто зливаю свою енергію.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__pop-original">
+            <div class="container">
+                <div class="reviews__pop-original-wrapper">
+                    <div class="reviews__pop-original-item">
+                        <div class="reviews__pop-original-close">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                        <div class="relative">
+                            <div class="reviews__pop-original-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-1.jpg">
+                                                <img src="images/reviews/slide-1.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-2.jpg">
+                                                <img src="images/reviews/slide-2.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-3.jpg">
+                                                <img src="images/reviews/slide-3.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-3.jpg">
+                                                <img src="images/reviews/slide-3.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="reviews__pop-swiper-desk-prev">
+                                    <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 6L10 0.226497V11.7735L0 6ZM19 7H9V5H19V7Z" fill="#FDFDF9"/>
+                                    </svg>
+                                </div>
+                                <div class="reviews__pop-swiper-desk-next">
+                                    <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19 6L9 0.226497V11.7735L19 6ZM0 7H10V5H0V7Z" fill="#FDFDF9"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-30px mt-30px justify-center lg:hidden">
+                            <div class="reviews__pop-swiper-prev">
+                                <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 6L10 0.226497V11.7735L0 6ZM19 7H9V5H19V7Z" fill="#FDFDF9"/>
+                                </svg>
+                            </div>
+                            <div class="reviews__pop-swiper-next">
+                                <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 6L9 0.226497V11.7735L19 6ZM0 7H10V5H0V7Z" fill="#FDFDF9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="reviews__pop-swiper-scrollbar"></div>
+                    </div>
+                </div>
+                <div class="reviews__pop-original-wrapper">
+                    <div class="reviews__pop-original-item">
+                        <div class="reviews__pop-original-close">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.87868 8.00002L0.575379 13.3033L2.6967 15.4246L8 10.1213L13.3033 15.4246L15.4246 13.3033L10.1213 8.00002L15.4246 2.69672L13.3033 0.575395L8 5.8787L2.6967 0.575395L0.57538 2.69672L5.87868 8.00002Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                        <div class="relative">
+                            <div class="reviews__pop-original-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-1.jpg">
+                                                <img src="images/reviews/slide-1.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-2.jpg">
+                                                <img src="images/reviews/slide-2.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-3.jpg">
+                                                <img src="images/reviews/slide-3.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-1.jpg">
+                                                <img src="images/reviews/slide-1.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-2.jpg">
+                                                <img src="images/reviews/slide-2.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__pop-original-slide swiper-slide">
+                                        <div class="max-w-[240px] w-full mx-auto rounded-[20px] overflow-hidden lg:max-w-[266px]">
+                                            <picture>
+                                                <source class="w-full h-full" srcset="images/reviews/slide-3.jpg">
+                                                <img src="images/reviews/slide-3.jpg" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="reviews__pop-swiper-desk-prev">
+                                    <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 6L10 0.226497V11.7735L0 6ZM19 7H9V5H19V7Z" fill="#FDFDF9"/>
+                                    </svg>
+                                </div>
+                                <div class="reviews__pop-swiper-desk-next">
+                                    <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19 6L9 0.226497V11.7735L19 6ZM0 7H10V5H0V7Z" fill="#FDFDF9"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-30px mt-30px justify-center lg:hidden">
+                            <div class="reviews__pop-swiper-prev">
+                                <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 6L10 0.226497V11.7735L0 6ZM19 7H9V5H19V7Z" fill="#FDFDF9"/>
+                                </svg>
+                            </div>
+                            <div class="reviews__pop-swiper-next">
+                                <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 6L9 0.226497V11.7735L19 6ZM0 7H10V5H0V7Z" fill="#FDFDF9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="reviews__pop-swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="posts">
+        <div class="container">
+            <div>
+                <div class="lg:flex gsap-y-100 overflow-hidden lg:justify-between lg:items-center">
+                    <h2 class="posts__title h2-heading text-center lg:text-start">Статті та дослідження</h2>
+                    <div class="hidden lg:gap-30px lg:justify-center lg:flex">
+                        <div class="posts__swiper-desk-prev">
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.5 6L10.5 0.226497V11.7735L0.5 6ZM19.5 7H9.5V5H19.5V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                        <div class="posts__swiper-desk-next">
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.5 6L9.5 0.226497V11.7735L19.5 6ZM0.5 7H10.5V5H0.5V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-30px lg:mt-60px">
+                    <div class="posts__swiper gsap-y-30 swiper">
+                        <div class="swiper-wrapper">
+                            <a href="#" class="posts__slide swiper-slide">
+                                <div class="flex items-center gap-20px rounded-[10px] overflow-hidden">
+                                    <img class="w-full h-full" src="images/posts/slide-1.jpg" alt="">
+                                </div>
+                                <div class="p-20px lg:p-30px grow flex flex-col">
+                                    <div class="text-14px leading-171">
+                                        <span>8 хвилин читання</span>
+                                    </div>
+                                    <div class="mt-10px mb-[14px] lg:mb-[15px]">
+                                        <h3 class="text-20px leading-150 font-manrope font-bold lg:text-22px lg:leading-145">Як утворювалися академічні науки та де шукати відповіді на усі запитання</h3>
+                                    </div>
+                                    <div class="flex gap-20px mt-auto">
+                                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                            <img class="w-full h-full" src="images/posts/person.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <span class="text-20px leading-180">Вікторія Рева</span>
+                                            <span class="text-14px leading-171">20 квіт 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="posts__slide swiper-slide">
+                                <div class="flex items-center gap-20px rounded-[10px] overflow-hidden">
+                                    <img class="w-full h-full" src="images/posts/slide-2.jpg" alt="">
+                                </div>
+                                <div class="p-20px lg:p-30px grow flex flex-col">
+                                    <div class="text-14px leading-171">
+                                        <span>8 хвилин читання</span>
+                                    </div>
+                                    <div class="mt-10px mb-[14px] lg:mb-[15px]">
+                                        <h3 class="text-20px leading-150 font-manrope font-bold lg:text-22px lg:leading-145">Який зв’язок між чакрами та пірамідою Маслоу</h3>
+                                    </div>
+                                    <div class="flex gap-20px mt-auto">
+                                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                            <img class="w-full h-full" src="images/posts/person.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <span class="text-20px leading-180">Вікторія Рева</span>
+                                            <span class="text-14px leading-171">20 квіт 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="posts__slide swiper-slide">
+                                <div class="flex items-center gap-20px rounded-[10px] overflow-hidden">
+                                    <img class="w-full h-full" src="images/posts/slide-3.jpg" alt="">
+                                </div>
+                                <div class="p-20px lg:p-30px grow flex flex-col">
+                                    <div class="text-14px leading-171">
+                                        <span>8 хвилин читання</span>
+                                    </div>
+                                    <div class="mt-10px mb-[14px] lg:mb-[15px]">
+                                        <h3 class="text-20px leading-150 font-manrope font-bold lg:text-22px lg:leading-145">Етапи розвитку мозку людини з моменту народження</h3>
+                                    </div>
+                                    <div class="flex gap-20px mt-auto">
+                                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                            <img class="w-full h-full" src="images/posts/person.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <span class="text-20px leading-180">Вікторія Рева</span>
+                                            <span class="text-14px leading-171">20 квіт 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="posts__slide swiper-slide">
+                                <div class="flex items-center gap-20px rounded-[10px] overflow-hidden">
+                                    <img class="w-full h-full" src="images/posts/slide-1.jpg" alt="">
+                                </div>
+                                <div class="p-20px lg:p-30px grow flex flex-col">
+                                    <div class="text-14px leading-171">
+                                        <span>8 хвилин читання</span>
+                                    </div>
+                                    <div class="mt-10px mb-[14px] lg:mb-[15px]">
+                                        <h3 class="text-20px leading-150 font-manrope font-bold lg:text-22px lg:leading-145">Як утворювалися академічні науки та де шукати відповіді на усі запитання</h3>
+                                    </div>
+                                    <div class="flex gap-20px mt-auto">
+                                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                            <img class="w-full h-full" src="images/posts/person.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <span class="text-20px leading-180">Вікторія Рева</span>
+                                            <span class="text-14px leading-171">20 квіт 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="posts__slide swiper-slide">
+                                <div class="flex items-center gap-20px rounded-[10px] overflow-hidden">
+                                    <img class="w-full h-full" src="images/posts/slide-2.jpg" alt="">
+                                </div>
+                                <div class="p-20px lg:p-30px grow flex flex-col">
+                                    <div class="text-14px leading-171">
+                                        <span>8 хвилин читання</span>
+                                    </div>
+                                    <div class="mt-10px mb-[14px] lg:mb-[15px]">
+                                        <h3 class="text-20px leading-150 font-manrope font-bold lg:text-22px lg:leading-145">Який зв’язок між чакрами та пірамідою Маслоу</h3>
+                                    </div>
+                                    <div class="flex gap-20px mt-auto">
+                                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                            <img class="w-full h-full" src="images/posts/person.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <span class="text-20px leading-180">Вікторія Рева</span>
+                                            <span class="text-14px leading-171">20 квіт 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="posts__slide swiper-slide">
+                                <div class="flex items-center gap-20px rounded-[10px] overflow-hidden">
+                                    <img class="w-full h-full" src="images/posts/slide-3.jpg" alt="">
+                                </div>
+                                <div class="p-20px lg:p-30px grow flex flex-col">
+                                    <div class="text-14px leading-171">
+                                        <span>8 хвилин читання</span>
+                                    </div>
+                                    <div class="mt-10px mb-[14px] lg:mb-[15px]">
+                                        <h3 class="text-20px leading-150 font-manrope font-bold lg:text-22px lg:leading-145">Етапи розвитку мозку людини з моменту народження</h3>
+                                    </div>
+                                    <div class="flex gap-20px mt-auto">
+                                        <div class="w-[72px] h-[72px] rounded-full overflow-hidden">
+                                            <img class="w-full h-full" src="images/posts/person.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <span class="text-20px leading-180">Вікторія Рева</span>
+                                            <span class="text-14px leading-171">20 квіт 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex gap-30px mt-30px justify-center lg:hidden">
+                        <div class="posts__swiper-prev">
+                            <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6L10 0.226497V11.7735L0 6ZM19 7H9V5H19V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                        <div class="posts__swiper-next">
+                            <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 6L9 0.226497V11.7735L19 6ZM0 7H10V5H0V7Z" fill="#FDFDF9"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer py-40px bg-main-black lg:py-[36px]">
+    <div class="container">
+        <div class="flex flex-col lg:gap-40px lg:flex-row lg:justify-between">
+            <div class="lg:max-w-[573px] lg:w-full">
+                <h3 class="h3-heading text-main-white text-center lg:text-start">Бажаєте розвинути свій потенціал і отримати цінні знання? Оберіть New Mind і станьте кращою версією себе!</h3>
+                <div class="hidden flex-col items-center gap-20px mt-30px lg:flex lg:flex-row lg:mt-40px">
+                    <a class="footer__transparent-btns" href="#" target="_blank">Написати email</a>
+                    <a class="footer__transparent-btns" href="#" target="_blank">Написати в Telegram</a>
+                </div>
+            </div>
+            <div class="mt-30px relative lg:max-w-[531px] lg:w-full lg:mt-0">
+                <div class="footer__form">
+                    <form method="post">
+                        <p>
+                    <span class="wpcf7-form-control-wrap">
+                        <input class="footer__inputs" placeholder="Ім'я" value="" type="text">
+                    </span>
+                            <span class="wpcf7-form-control-wrap">
+                        <input class="footer__inputs" placeholder="Телефон" value="" type="tel">
+                    </span>
+                            <span class="wpcf7-form-control-wrap">
+                        <input class="footer__inputs" placeholder="E-mail" value="" type="email">
+                    </span>
+                            <span>
+                        <span class="text-18px leading-[200%] text-main-white lg:text-20px">Ми також можемо зв'язатися з вами через Telegram</span>
+                        <span class="wpcf7-form-control-wrap">
+                            <input class="footer__inputs" placeholder="Telegram username" value="" type="text">
+                        </span>
+                    </span>
+                            <button class="footer__form-submit btn-purple-h-white btn-purple" type="submit">Допоможіть мені підібрати курс</button>
+                            <span class="wpcf7-spinner"></span>
+                        </p>
+                    </form>
+                </div>
+                <div class="footer__pop-thanks flex flex-col items-center">
+                    <div class="mb-30px">
+                        <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M43.3327 4.86478C43.3327 2.17804 41.3926 1.17441e-07 38.9993 0C36.6061 -1.17441e-07 34.666 2.17804 34.666 4.86478C34.666 15.2431 37.6063 26.5562 38.9994 36.8333C40.3924 26.5562 43.3327 15.2431 43.3327 4.86478Z" fill="#FDFDF9"/>
+                            <path d="M60.2308 11.8764C61.5227 9.63879 60.756 6.77756 58.5184 5.48566C56.2807 4.19377 53.4195 4.96044 52.1276 7.19806C47.1373 15.8415 44.4466 26.8507 40.8075 36.1619C47.0516 28.3547 55.2405 20.5199 60.2308 11.8764Z" fill="#FDFDF9"/>
+                            <path d="M70.7342 25.6186C72.9718 24.3267 73.7385 21.4655 72.4466 19.2278C71.1547 16.9902 68.2935 16.2236 66.0558 17.5154C57.4124 22.5057 49.5776 30.6946 41.7704 36.9388C51.0816 33.2996 62.0907 30.6089 70.7342 25.6186Z" fill="#FDFDF9"/>
+                            <path d="M7.39275 51.9341C5.15513 53.226 4.38846 56.0873 5.68035 58.3249C6.97225 60.5625 9.83348 61.3292 12.0711 60.0373C20.7146 55.047 28.5493 46.8581 36.3566 40.614C27.0454 44.2531 16.0362 46.9438 7.39275 51.9341Z" fill="#FDFDF9"/>
+                            <path d="M18.3786 11.8764C17.0867 9.63879 17.8534 6.77756 20.091 5.48566C22.3286 4.19377 25.1899 4.96044 26.4818 7.19806C31.4721 15.8415 34.1627 26.8507 37.8019 36.1619C31.5578 28.3547 23.3689 20.5199 18.3786 11.8764Z" fill="#FDFDF9"/>
+                            <path d="M60.2308 66.5298C61.5227 68.7675 60.756 71.6287 58.5184 72.9206C56.2807 74.2125 53.4195 73.4458 52.1276 71.2082C47.1373 62.5647 44.4466 51.5556 40.8075 42.2444C47.0516 50.0516 55.2405 57.8864 60.2308 66.5298Z" fill="#FDFDF9"/>
+                            <path d="M19.0466 66.5298C17.7547 68.7675 18.5213 71.6287 20.759 72.9206C22.9966 74.2125 25.8578 73.4458 27.1497 71.2082C32.14 62.5647 34.8307 51.5556 38.4699 42.2444C32.2257 50.0516 24.0369 57.8864 19.0466 66.5298Z" fill="#FDFDF9"/>
+                            <path d="M43.3327 73.4214C43.3327 75.9501 41.3926 78 38.9993 78C36.6061 78 34.666 75.9501 34.666 73.4214C34.666 63.6536 37.6063 53.0059 38.9994 43.3333C40.3924 53.006 43.3327 63.6536 43.3327 73.4214Z" fill="#FDFDF9"/>
+                            <path d="M73.4214 34.6668C75.9501 34.6668 78 36.6069 78 39.0002C78 41.3934 75.9501 43.3335 73.4214 43.3335C63.6536 43.3335 53.0059 40.3932 43.3333 39.0002C53.006 37.6071 63.6536 34.6668 73.4214 34.6668Z" fill="#FDFDF9"/>
+                            <path d="M4.57862 34.6668C2.04992 34.6668 4.04561e-07 36.6069 1.89416e-07 39.0002C-2.57288e-08 41.3934 2.04992 43.3335 4.57862 43.3335C14.3464 43.3335 24.9941 40.3932 34.6667 39.0002C24.994 37.6071 14.3464 34.6668 4.57862 34.6668Z" fill="#FDFDF9"/>
+                            <path d="M71.2459 51.7266C73.4835 53.0185 74.2502 55.8797 72.9583 58.1174C71.6664 60.355 68.8052 61.1217 66.5676 59.8298C57.9241 54.8395 50.0893 46.6506 42.2821 40.4064C51.5933 44.0456 62.6025 46.7363 71.2459 51.7266Z" fill="#FDFDF9"/>
+                            <path d="M11.6284 17.3068C9.39075 16.0149 6.52951 16.7816 5.23762 19.0192C3.94572 21.2569 4.71239 24.1181 6.95001 25.41C15.5935 30.4003 26.6026 33.091 35.9138 36.7301C28.1066 30.486 20.2718 22.2971 11.6284 17.3068Z" fill="#FDFDF9"/>
+                        </svg>
+                    </div>
+                    <h3 class="h3-heading text-main-white">Дякуємо за заявку!</h3>
+                    <p class="text-20px text-center leading-180 font-normal mt-30px text-main-white">Наш менеджер зв'яжеться з вами найближчим часом і допоможе підібрати курс</p>
+                </div>
+            </div>
+            <div class="flex flex-col mt-60px lg:hidden">
+                <div>
+                    <h3 class="h3-heading text-main-white text-center lg:text-start">Або зв’язатись з нами в</h3>
+                </div>
+                <div class="flex flex-col items-center gap-20px mt-20px">
+                    <a class="footer__transparent-btns" href="#" target="_blank">Написати email</a>
+                    <a class="footer__transparent-btns" href="#" target="_blank">Написати в Telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t mt-60px border-t-main-beige pt-30px lg:hidden">
+            <div class="flex items-center justify-between">
+                <a href="#">
+                    <img src="images/Logo-white.svg" alt="Logo">
+                </a>
+                <div class="flex gap-20px">
+                    <a href="#">
+                        <img src="images/footer/inst.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/footer/face.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/footer/tele.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <ul>
+                    <li><a href="">Курси</a></li>
+                    <li><a href="">Консультація</a></li>
+                    <li><a href="">Статті</a></li>
+                    <li><a href="">Про школу</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex gap-20px flex-col items-center">
+                    <li>
+                        <a class="text-18px leading-144 text-main-white" href="#">Правила школи</a>
+                    </li>
+                    <li>
+                        <a class="text-18px leading-144 text-main-white" href="#">Угода користувача</a>
+                    </li>
+                    <li>
+                        <a class="text-18px leading-144 text-main-white" href="#">Політика конфіденційності</a>
+                    </li>
+                    <li>
+                        <a class="text-18px leading-144 text-main-white" href="#">Розробка сайту - Valmax Digital</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="text-18px leading-144 text-main-white mt-40px text-center block">© 2023 NewMind. Copyrights</span>
+        </div>
+        <div class="hidden border-t pt-30px border-t-main-beige mt-[77px] gap-40px justify-between lg:flex">
+            <div class="max-w-[536px] w-full flex justify-between">
+                <div class="flex flex-col justify-between">
+                    <a href="#">
+                        <img src="images/Logo-white.svg" alt="Logo">
+                    </a>
+                    <span class="text-18px leading-144 text-main-white mt-40px text-center block">© 2023 NewMind. Copyrights</span>
+                </div>
+                <div class="flex items-end">
+                    <a class="text-decoration-hover text-18px leading-144 text-main-white" href="#">Правила школи</a>
+                </div>
+            </div>
+            <div class="flex justify-between max-w-[475px] w-full xl:mr-[57px]">
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="">Курси</a></li>
+                        <li><a href="">Консультація</a></li>
+                        <li><a href="">Статті</a></li>
+                        <li><a href="">Про школу</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="flex gap-20px">
+                        <a class="footer__social" href="#">
+                            <img class="footer__social-original" src="images/footer/inst.svg" alt="">
+                            <img class="footer__social-hover" src="images/footer/inst-h.svg" alt="">
+                        </a>
+                        <a class="footer__social" href="#">
+                            <img class="footer__social-original" src="images/footer/face.svg" alt="">
+                            <img class="footer__social-hover" src="images/footer/face-h.svg" alt="">
+                        </a>
+                        <a class="footer__social" href="#">
+                            <img class="footer__social-original" src="images/footer/tele.svg" alt="">
+                            <img class="footer__social-hover" src="images/footer/tele-h.svg" alt="">
+                        </a>
+                    </div>
+                    <ul class="flex gap-20px flex-col items-start mt-20px">
+                        <li>
+                            <a class="text-decoration-hover text-18px leading-144 text-main-white" href="#">Угода користувача</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-hover text-18px leading-144 text-main-white" href="#">Політика конфіденційності</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-hover text-18px leading-144 text-main-white" href="#">Розробка сайту - Valmax Digital</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="libs/jquery/jquery.js"></script>
+<script src="libs/gsap/gsap.min.js"></script>
+<script src="libs/gsap/ScrollTrigger.min.js"></script>
+<script src="libs/marquee/jquery.marquee.min.js"></script>
+<script src="libs/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/scripts.min.js" type="text/javascript"></script>
+</html>
